@@ -1,0 +1,45 @@
+
+body {
+    background: linear-gradient(180deg, rgb(242, 242, 240), rgb(238, 237, 226));
+    background-repeat: no-repeat;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+li{
+    margin: 30px 0px;
+}
+
+.js-code {
+    display: inline-block;
+    background-color: black;
+    border-radius: 0.3em;
+    padding: 1em;
+    color: #f8f8f2;
+    font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+}
+
+.js-code div{
+    padding: 0.3em;
+}
+
+.const{
+    display: inline;
+    color: #66d9ef;
+}
+
+.number{
+    display: inline;
+    color: #ae81ff;
+}
+
+.string{
+    display: inline;
+    color: #a6e22e;
+}
+
+.week-code{
+    padding: 10px 0px;
+}
