@@ -62,3 +62,14 @@ li > span{
 .week-code{
     padding: 10px 0px;
 }
+
+.videoframe{
+    margin: 20px auto 20px auto;
+    width: 50%;
+}
+
+@media screen and (orientation: portrait){
+    .videoframe{
+        width: 95%;
+    }
+}

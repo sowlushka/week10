@@ -1,0 +1,49 @@
+.gallery{
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+.gallery-img{
+    height: 100%;
+    height: 35vh;
+    text-align: center;
+}
+
+.gallery-img img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-buttons{
+    display:flex;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.gallery-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a0A0A0;
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.gallery-button-core{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:beige;
+    background-color: #202020;
+    border-radius: 5px;
+    font-size: 25px;
+    width: 120px;
+    height: 40px;    
+}
+
+.gallery-button:hover{
+    background-color: #D0D0D0;
+    cursor: pointer;
+}
