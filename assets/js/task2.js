@@ -1,4 +1,4 @@
-let galleryImg=document.getElementById('gallery-img');//.attributes.item('src');
+const galleryImg=document.getElementById('gallery-img');//.attributes.item('src');
 
 let gallery=new (function(){
     const CATCOUNT=5;
