@@ -1,4 +1,4 @@
-
+let galleryImg=document.getElementById('gallery-img');//.attributes.item('src');
 
 let gallery=new (function(){
     const CATCOUNT=5;
@@ -6,7 +6,7 @@ let gallery=new (function(){
     return {
         toLeft: function(){
             --i;
-            if(!i)i=CATCOUNT-1;
+            if(i<0)i=CATCOUNT-1;
         },
 
         toRight: function(){
@@ -15,8 +15,19 @@ let gallery=new (function(){
         },
 
         getRef: function(){
-            return "cat"+i;
+            return `assets/img/cats/cat${i}.jpg`;
         }
     };
 })();
 
+
+previous.onclick=function(event){
+    gallery.toLeft();
+    galleryImg.src=gallery.getRef();
+}
+
+next.onclick=function(event){
+    gallery.toRight();
+    galleryImg.src=gallery.getRef();
+
+}
