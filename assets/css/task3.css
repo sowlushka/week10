@@ -1,0 +1,32 @@
+:root{
+    --bg-Color: #e0e0e0;
+    --bg-mess-color: #8aba97;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-Color);
+    height: 100vh;
+  }
+  
+  #result1{
+    color: black;
+    font-weight: 700;
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: var(--bg-Color);
+    border-radius: 7px;
+  }
+  
+  label{
+    display: block;
+    margin: 10px 0px 5px 0px; 
+  }
+  
+  input{
+    width: 80px;
+    display: block;
+    margin: 5px 0px 20px 0px;
+  }
